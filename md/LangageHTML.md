@@ -19,3 +19,15 @@ Le texte s'écrit **entre les balises.**
 Il existe aussi des balises orphelines : `<!DOCTYPE html>, <br>, <img> ...`
 
 Référence: Mozilla [https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements)
+
+Une balise ouvrante peut contenir un attibut notamment `class=""`:
+
+`<h1 class="maClasse" ></h1>`
+
+Quelques balises importantes:
+- `<h1></h1>` : pour faire des titres
+- `<p></p>`   : pour faire des paragraphes
+- `<a href=""></a>` : pour faire des liens
+- `<ul></ul>`       : pour faire listes sans ordre
+- `<ol></ol>`       : pour faire listes avec ordre
+- `<li></li>`       : pour faire des items de liste
