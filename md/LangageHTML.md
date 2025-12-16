@@ -31,3 +31,28 @@ Quelques balises importantes:
 - `<ul></ul>`       : pour faire listes sans ordre
 - `<ol></ol>`       : pour faire listes avec ordre
 - `<li></li>`       : pour faire des items de liste
+- `<img src="">` : pour ajouter une image
+
+Pour trouver le chemin vers un fichier, on peut regarder:
+- dans le dossier courant avec `./`
+- dans un dossier extérieur avec `../`
+
+
+2. CSS
+
+Cascading Style Sheet : page de style en cascade
+
+On peut écrire du CSS:
+- directement dans le fichier HTML entre les balises `<style></style>`
+- dans un fichier `.css`
+
+
+Pour écrire du CSS, il faut un sélecteur (nom d'une balise ou d'un class), des accolades, des propriétés, des valeurs.
+
+```css
+selecteur {
+    propriete1 : valeur1;
+    propriete2 : valeur2;
+    ....
+}
+```
