@@ -56,3 +56,10 @@ selecteur {
     ....
 }
 ```
+
+Il existe plus de 500 propriétés et encore davantage de valeur possibles. Cependant,
+les valeurs sont souvent:
+- une couleur
+- une taille
+
+Rem: on trouve toutes les propriétés sur le site des développeurs de Mozilla.

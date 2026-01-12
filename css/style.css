@@ -5,8 +5,18 @@
         p {
             color: white;
             background-color: rgb(71, 66, 60);
+            width: 300px;
         }
 
         .deux{
             background-color: blue;
+        }
+
+        img{
+            height:300px;
+            /*width: 500px;*/
+            border-style: solid;
+            border-width: 4px;
+            border-color: rgb(255, 255, 255);
+            border-radius: 10px;
         }
