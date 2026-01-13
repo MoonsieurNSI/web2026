@@ -44,7 +44,8 @@ Cascading Style Sheet : page de style en cascade
 
 On peut écrire du CSS:
 - directement dans le fichier HTML entre les balises `<style></style>`
-- dans un fichier `.css`
+- dans un fichier `.css` en indiquant le chermin
+dans le fichier HTML grâce à la balise `<link>`
 
 
 Pour écrire du CSS, il faut un sélecteur (nom d'une balise ou d'un class), des accolades, des propriétés, des valeurs.
@@ -59,7 +60,26 @@ selecteur {
 
 Il existe plus de 500 propriétés et encore davantage de valeur possibles. Cependant,
 les valeurs sont souvent:
-- une couleur
-- une taille
+- une couleur: un nom, un code (rgb(0-255, 0-255, 0-255))
+- une taille: il existe de nombreuses unités, pixels(px), pourcentage(%), ...
 
 Rem: on trouve toutes les propriétés sur le site des développeurs de Mozilla.
+
+Les propriétés CSS s'appliquent en cascade : des éléments les plus globaux (`body`, `div`) vers les éléments les plus internes (pour finir par les classes).
+
+Rem: Principe du modèle en boîte
+Les éléments d'une page sont contenus dans une boite entourée d'une bordure(invisible par défaut).
+L'espace entre:
+- le contenu et la bordure s'appelle `padding`
+- la bordure et les éléments autour s'appelle `margin`
+
+La bordure `border` peut même avoir un style.
+[https://www.w3schools.com/css/css_boxmodel.asp](https://www.w3schools.com/css/css_boxmodel.asp)
+
+
+Rem: les conteneurs universels `<div></div>` et `<span></span>`.
+
+
+Il existe de nombreuses propriétes relatives au texte:
+- `text-align`
+- `font`

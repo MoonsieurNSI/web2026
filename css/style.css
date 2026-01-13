@@ -5,18 +5,36 @@
         p {
             color: white;
             background-color: rgb(71, 66, 60);
-            width: 300px;
+            width: 100%;/*Toute la largeur du conteneur*/
+            text-align: justify;
+
         }
 
         .deux{
             background-color: blue;
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-style: oblique;
         }
 
         img{
             height:300px;
             /*width: 500px;*/
-            border-style: solid;
+            border-style:solid; 
             border-width: 4px;
             border-color: rgb(255, 255, 255);
-            border-radius: 10px;
+            border-radius: 5px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            margin-left: 40%;
+            margin-top:50px;
         }
+
+
+.boite1{
+    border-style:solid;
+    border-width:1px;
+    width:50%;
+    margin-left:25%;
+}
