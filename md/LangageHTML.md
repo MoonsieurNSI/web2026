@@ -83,3 +83,16 @@ Rem: les conteneurs universels `<div></div>` et `<span></span>`.
 Il existe de nombreuses propriétes relatives au texte:
 - `text-align`
 - `font`
+
+3. Javascript (JS)
+
+C'est le langage de programmation qui permet de gérer
+les éléments interactifs d'une page HTMl.
+
+Historiquement, les éléments d'interactions étaient placés dans
+un formulaire `<form></form>` pour renvoyer des informations au serveur.
+
+Dans le formulaire on place les éléments `<input type="">`:
+- type="text"
+- type="checkbox"
+- type="button"
