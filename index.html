@@ -3,18 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="./js/script.js" async></script>
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style2.css">
 </head>
 <body>
-    <h1 class="title">Titre</h1>
-    <form action="">
-        <button class="btn1" type="button"> <!-- Le type "button" permet de créer un bouton cliquable sans soumettre le formulaire -->
-            Cliquer       
-        </button>
-        <input type="text" name="text" id="text">
-        <input type="range" name="range" id="range">
-    </form>
-    <button class="btn2" type="button">salut</button>
+    <h1>Jouons avec JS</h1>
+  <form action="">
+    <input type="range" name="range" id="range" value="75">
+    <input type="text" name="text" id="text" value="Patrice">
+    <input type="button" value="Clique" id="btn">
+    <input type="checkbox" name="check" id="check1" >
+    <input type="password" name="pass" id="pass">
+  </form>  
+  <script>
+    let titre = document.querySelector('h1');
+    console.log(titre);
+    console.log(titre.textContent);
+    
+    //console.log(titre.style.color);
+    // let curseur = document.querySelector('input');
+    // console.log(curseur);
+    // console.log(curseur.value);
+    // curseur.addEventListener('change', function() {
+    //     console.log(curseur.value);
+    // });
+    // let texte = document.getElementById('text');
+    // texte.addEventListener('change', function() {
+    //     console.log(texte.value);
+    // });
+    // console.log(texte);
+    // console.log(texte.value);
+    let pression = false;
+    let bouton = document.getElementById('btn');
+    bouton.addEventListener('click',
+     function() {
+        if (pression == false) {
+        titre.textContent = "Nouveau titre avec JS";
+        titre.style.color = "red";
+        titre.style.fontSize = "40px"; 
+        pression=true;
+        }
+        else{
+            titre.textContent = "Jouons avec JS";
+            titre.style.color = "blue";
+            titre.style.fontSize = "16px"; 
+            pression=false;
+        }
+ 
+     });
+    // console.log(bouton.value);
+    
+    //let box = document.getElementById('check1');
+    //console.log(box.checked);
+  </script>
+
 </body>
 </html>
