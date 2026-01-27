@@ -6,7 +6,7 @@ entre le matériel (hardware) et les logiciels (software).
 
 => operating system (OS)
 
-
+-----------------
 >  ℹ️ **Note** Principaux OS
 >
 >   - **Windows** Microsoft
@@ -17,6 +17,7 @@ entre le matériel (hardware) et les logiciels (software).
 >   - **IOS** Apple
 >   - **FreeBSD**
 >   - **Gnu/Linux**
+-----------------
 
 Les 6 premiers sont des logiciels propriétaires tandis que les deux derniers sont **libres**.
 
