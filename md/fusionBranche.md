@@ -1,6 +1,6 @@
-- git branch ou git checkout main
-On est sur main (branche locale). La branche origin/main est la branche distante (github).
-
-- git fetch origin
+- git add ./
+- git commit -m "test"
 - git merge origin/main
+- git push origin main
+
 
