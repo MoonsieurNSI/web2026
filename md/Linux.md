@@ -7,7 +7,7 @@ entre le matériel (hardware) et les logiciels (software).
 => operating system (OS)
 
 
-> [!warning] note Principaux OS
+>  ℹ️ **Note** Principaux OS
 >
 >   - **Windows** Microsoft
 >   - **MacOS** Apple
