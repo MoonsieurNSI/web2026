@@ -6,11 +6,13 @@ entre le matériel (hardware) et les logiciels (software).
 
 => operating system (OS)
 
-!!! note Principaux OS
-Les principaux OS sont:
-- **Windows** Microsoft
-- **MacOS** Apple
-- **Unix** Solaris
+
+> [!warning] note Principaux OS
+>
+>   - **Windows** Microsoft
+>   - **MacOS** Apple
+>   - **Unix** Solaris
+
 - **ChromeOs** Google
 - **Android** Google
 - **IOS** Apple
