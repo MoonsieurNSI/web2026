@@ -12,17 +12,16 @@ entre le matériel (hardware) et les logiciels (software).
 >   - **Windows** Microsoft
 >   - **MacOS** Apple
 >   - **Unix** Solaris
-
-- **ChromeOs** Google
-- **Android** Google
-- **IOS** Apple
-- **FreeBSD**
-- **Gnu/Linux**
+>   - **ChromeOs** Google
+>   - **Android** Google
+>   - **IOS** Apple
+>   - **FreeBSD**
+>   - **Gnu/Linux**
 
 Les 6 premiers sont des logiciels propriétaires tandis que les deux derniers sont **libres**.
 
 A l'exception de **Windows**, tous ces OS appartiennent à la famille *Unix-Like* : les commandes sont standardisées.
-!!!
+
 
 Rem:
 > « First, the freedom to copy a program and redistribute it to your neighbours, so that they can use
