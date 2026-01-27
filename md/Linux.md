@@ -62,6 +62,11 @@ Syntaxe générale:    `nom --option argument` ou `nom -option argument`
 |`mkdir`|créer un dossier *vide*|`$ mkdir monDossier`|
 |`nano`|éditer un fichier|`$ nano monfichier`|
 |`cat`|affiche le contenu des fichiers |`$ cat monfichier`|
+|`tree`|affiche l'arborescence du dossier courant `./` |`$ tree`|
+|`pwd`|affiche le nom du dossier courant |`$ pwd`|
+|`cd`|changer de répertoire courant |`$ cd ./mondossier`|
+|`cp`|copier une source vers une destination|`$ cp ./monfichier ./mondossier`|
+|`rm`|supprimer des fichiers ou des dossiers|`$ `|
 
 
 
@@ -71,3 +76,32 @@ Pour éditer un fichier plusieurs commandes/éditeurs sont possibles :
 - `vi`
 - `emacs`
 
+----------------
+La commande `cd`(*change directory*) permet de se déplacer dans l'arboresence des
+dossiers. Sur Linux, le dossier **racine** (*root*) se note `/`.
+
+On peut donner le chemin vers un dossier (un fichier) de manière:
+- relative (on commence par `./` ou `../`)
+- absolue (on commence par `/`)
+
+Linux rend facultatif l'utilisation de `./`.
+
+Si on tape la commande `cd` sans argument, on se déplace dans le répertoire "home".
+=> `/home/utilisateur`
+
+-------------------
+
+La commande `cp`permet de copier une source vers une destination en la renommant
+éventuellement.
+
+```bash
+$ cp cheminFichierSource cheminDossierDestination
+```
+en renommant
+
+```bash
+$ cp cheminFichierSource cheminDossierDestination/nouveauNom
+```
+
+-------------
+La commande `rm -r` permet de supprimer un dossier et tout son contenu
