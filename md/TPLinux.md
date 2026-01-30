@@ -8,7 +8,7 @@
 - Revenir dans le répertoire `/workspaces/web2026`
 - Utiliser la commande `ls -F` . Que remarquez-vous ?
 - Réaliser deux copies de `fic1.txt` :
-    - `fic2.txt` dans le répertoire `.//Dossier1`
+    - `fic2.txt` dans le répertoire `./Dossier1`
     - `fic3.txt` dans le répertoire `/workspaces/web2026`
 - Renommer le fichier `fic1.txt` en `fichierNSI` . Commenter.
 - Utiliser la commande `tree` pour contrôler le résultat.
@@ -34,3 +34,18 @@
 - Appliquer la commande `sort` à `fic3.txt` et commenter.
 - Afficher le nombre de lignes et de mots dans `fic3.txt`
 - Afficher tous les fichiers et dossiers cachés du répertoire `/workspaces/web2026`
+
+
+------------
+## correction
+
+- pwd
+- ls
+- mkdir ./Dossier1
+- Dossier1 apparaît surligné en vert (comme tous les dossiers)
+- cd ./Dossier1
+- pwd
+- touch ./fic1.txt
+- cd ../ ou cd /workspaces/web2026
+- l'option -F ajouter un slash après les dossiers
+- cp ./Dossier1/fic1.txt ./Dossier1/fic2.txt  puis cp ./Dossier1/fic1.txt ./fic3.txt
