@@ -69,8 +69,8 @@ Syntaxe générale:    `nom --option argument` ou `nom -option argument`
 |`cd`|changer de répertoire courant |`$ cd ./mondossier`|
 |`cp`|copier une source vers une destination|`$ cp ./monfichier ./mondossier`|
 |`rm`|supprimer des fichiers ou des dossiers|`$ rm -r ./mondossier`|
-|`mv`|couper/renommer des fichiers|`$ `|
-
+|`mv`|couper/renommer des fichiers|`$ mv ./monfichier ./nouveauNom`|
+|`chmod`|modifie les permissions|`$ chmod 777 ./monFichier`|
 
 
 ---------------
@@ -108,3 +108,32 @@ $ cp cheminFichierSource cheminDossierDestination/nouveauNom
 
 -------------
 La commande `rm -r` permet de supprimer un dossier et tout son contenu
+
+--------------
+Il est possible d'écrire des commandes dans un fichier portant l'extension `.sh`
+par défaut. Pour exécuter ce fichier,
+
+```bash
+./monFichier.sh
+```
+
+Par défaut, les fichiers linux ne sont pas exécutables. Quand un fichier (un dossier) est crée, il possède des **permissions** qui peuvent être différentes pour:
+- `user` c'est le propriétaire
+- `group` c'est un groupe d'utilisateur défini par `user`
+- `other` le reste du monde
+
+Les permissions sur un fichier(un dossier) sont:
+- *read* : `r` valeur 4
+- *write* : `w` valeur 2
+- *execute* : `x` valeur 1
+
+La commande `chmod nnn` permet de modifier les permissions ; il existe une autre synatxe avec les lettres `u,g,o` (user, group, other) et les symboles `+, -` pour
+ajouter ou retirer des droits.
+
+```bash
+chmod 754 ./monFichier.sh   # rwx pour user, rx pour group, r pour other
+```
+
+```bash
+chmod u-x,g-x,o+w ./monFichier.sh   # retire x pour user et group, ajoute w pour other
+```
