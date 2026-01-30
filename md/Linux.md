@@ -68,7 +68,8 @@ Syntaxe générale:    `nom --option argument` ou `nom -option argument`
 |`pwd`|affiche le nom du dossier courant |`$ pwd`|
 |`cd`|changer de répertoire courant |`$ cd ./mondossier`|
 |`cp`|copier une source vers une destination|`$ cp ./monfichier ./mondossier`|
-|`rm`|supprimer des fichiers ou des dossiers|`$ `|
+|`rm`|supprimer des fichiers ou des dossiers|`$ rm -r ./mondossier`|
+|`mv`|couper/renommer des fichiers|`$ `|
 
 
 
