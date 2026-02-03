@@ -19,7 +19,7 @@
 - Créer les dossiers suivants :
     - `/workspaces/web2026/DA`
     - `/workspaces/web2026/DA/DB`
-    - /workspaces/web2026/DA/DC`
+    - `/workspaces/web2026/DA/DC`
 - Utiliser la commande `tree` pour contrôler.
 -  Se déplacer dans le dossier `/workspaces/web2026/DA/DC` et vérifier que vous êtes bien arrivé !
 -  Utiliser la commande `cd ../../` et commenter.
@@ -55,5 +55,17 @@ Les fichiers n'ont pas obligatoirement d'extension.
 - On remonte un rang en arrière dans l'arborescence
 - rmdir ne peut pas supprimer un dossier non vide
 - rm -i pose une question y/n avant chaque supppression
+- mkdir ./DA ./DA/DB ./DA/DC
+- cd ./DA/DC puis pwd
+- cd ../../ permet de remonter de 2 rangs
+- head -n 4 ./fic3.txt
+- tail -n 3 ./fic3.txt
+- cat ./fic3.txt
+- grep aime ./fic3.txt
+
+
+
+
+
 
 

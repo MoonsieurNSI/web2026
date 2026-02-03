@@ -71,9 +71,10 @@ Syntaxe générale:    `nom --option argument` ou `nom -option argument`
 |`rm`|supprimer des fichiers ou des dossiers|`$ rm -r ./mondossier`|
 |`mv`|couper/renommer des fichiers|`$ mv ./monfichier ./nouveauNom`|
 |`chmod`|modifie les permissions|`$ chmod 777 ./monFichier`|
-
-
----------------
+|`head`|affiche les premières lignes d'un fichier|`$ head -n 4 ./monFichier`|
+|`tail`|affiche les dernières lignes d'un fichier|`$ tail -n 4 ./monFichier`|
+|`grep`|recherche une chaîne de caractère|`$ grep chaine ./monFichier`|
+----------
 Pour éditer un fichier plusieurs commandes/éditeurs sont possibles :
 - `nano` (dans ce cours)
 - `vi`
