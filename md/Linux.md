@@ -163,3 +163,6 @@ La commande `python` suivie du chemin vers un fichier `.py` exécute le code pyt
 
 # Ex 2
 [https://codex.forge.apps.education.fr/exercices/syracuse/](https://codex.forge.apps.education.fr/exercices/syracuse/)
+
+# Ex 3
+[https://codex.forge.apps.education.fr/exercices/derniere_occurrence/](https://codex.forge.apps.education.fr/exercices/derniere_occurrence/)
