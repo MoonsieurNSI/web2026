@@ -74,6 +74,7 @@ Syntaxe générale:    `nom --option argument` ou `nom -option argument`
 |`head`|affiche les premières lignes d'un fichier|`$ head -n 4 ./monFichier`|
 |`tail`|affiche les dernières lignes d'un fichier|`$ tail -n 4 ./monFichier`|
 |`grep`|recherche une chaîne de caractère|`$ grep chaine ./monFichier`|
+|`echo`|retourne une chaîne de caractère (par défaut sur le terminal)|`$ echo "chaine"`|
 ----------
 Pour éditer un fichier plusieurs commandes/éditeurs sont possibles :
 - `nano` (dans ce cours)
@@ -138,3 +139,24 @@ chmod 754 ./monFichier.sh   # rwx pour user, rx pour group, r pour other
 ```bash
 chmod u-x,g-x,o+w ./monFichier.sh   # retire x pour user et group, ajoute w pour other
 ```
+
+---------------
+L'opérateur `>` ou `>>` permet de rediriger la sortie vers un fichier ; si le fichier n'existe pas alors
+il est crée.
+```bash
+commande > fichier
+```
+
+Le signe `>>` permet de ne pas écraser le contenu du fichier. Il est fréquent d'utiliser `echo` avec l'option
+`-e` pour remplir un fichier.
+
+```bash
+echo -e "code en python
+.....
+...." > fichier.py
+```
+
+La commande `python` suivie du chemin vers un fichier `.py` exécute le code python.
+
+# Ex1
+[https://codex.forge.apps.education.fr/exercices/course_cycliste/](https://codex.forge.apps.education.fr/exercices/course_cycliste/)
