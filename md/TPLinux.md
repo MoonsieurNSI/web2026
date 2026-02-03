@@ -49,3 +49,11 @@
 - cd ../ ou cd /workspaces/web2026
 - l'option -F ajouter un slash après les dossiers
 - cp ./Dossier1/fic1.txt ./Dossier1/fic2.txt  puis cp ./Dossier1/fic1.txt ./fic3.txt
+- mv ./Dossier1/fic1.txt ./Dossier1/FichierNSI <br>
+Les fichiers n'ont pas obligatoirement d'extension.
+- tree
+- On remonte un rang en arrière dans l'arborescence
+- rmdir ne peut pas supprimer un dossier non vide
+- rm -i pose une question y/n avant chaque supppression
+
+
