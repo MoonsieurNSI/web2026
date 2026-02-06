@@ -175,6 +175,7 @@ Le *file globbing*:
 C'est une technique permettant de rechercher des fichiers sans en connaître nécessairement le nom complet et à l'aide de *wildcard*. On utiliser cette technique avec `ls`, `rm`, `cp` ...
 
 |wildcard|Signification|Exemple|
+|----|----|----|
 |`*`|autant de caractères que souhaité|`ls file*`|
 |`?`|exactement un caractère|`ls file?.log`|
 |`[abc]` ou `[a-c]`|un caractère parmi la liste|`ls file[1A].log`|
