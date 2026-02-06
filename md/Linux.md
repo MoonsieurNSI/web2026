@@ -75,6 +75,8 @@ Syntaxe générale:    `nom --option argument` ou `nom -option argument`
 |`tail`|affiche les dernières lignes d'un fichier|`$ tail -n 4 ./monFichier`|
 |`grep`|recherche une chaîne de caractère|`$ grep chaine ./monFichier`|
 |`echo`|retourne une chaîne de caractère (par défaut sur le terminal)|`$ echo "chaine"`|
+|`history`|retourne l'historique des commandes|`$ history`|
+|`find`|rechercher une fichier dans une arborescence|`$ find ./ -name "fichier"`|
 ----------
 Pour éditer un fichier plusieurs commandes/éditeurs sont possibles :
 - `nano` (dans ce cours)
@@ -166,3 +168,14 @@ La commande `python` suivie du chemin vers un fichier `.py` exécute le code pyt
 
 # Ex 3
 [https://codex.forge.apps.education.fr/exercices/derniere_occurrence/](https://codex.forge.apps.education.fr/exercices/derniere_occurrence/)
+
+------------------------
+
+Le *file globbing*:
+C'est une technique permettant de rechercher des fichiers sans en connaître nécessairement le nom complet et à l'aide de *wildcard*. On utiliser cette technique avec `ls`, `rm`, `cp` ...
+
+|wildcard|Signification|Exemple|
+|`*`|autant de caractères que souhaité|`ls file*`|
+|`?`|exactement un caractère|`ls file?.log`|
+|`[abc]` ou `[a-c]`|un caractère parmi la liste|`ls file[1A].log`|
+|`[!a-f]`|un caractère exclu de la liste|`ls file[!1A].*`|
